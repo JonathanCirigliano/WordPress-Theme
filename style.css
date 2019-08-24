@@ -1,0 +1,629 @@
+/*
+Theme Name: Pizzeria theme
+Theme URI: http://example.com
+Author: Jonathan Cirigliano
+Author URI: http://example.com
+Description: Pizzeria Theme start2impact
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+  margin-top: 50px;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+#postContent{
+  margin-top: 36px;
+} 
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+/* Custom Css Blog*/
+.jumbotron{
+  margin-top: 40px !important;
+}
+
+.p-4{
+  margin-top: -10px;
+}
+
+aside{
+  margin-top: 40px !important;
+  background-color: white;
+  border: #f4f4f4 solid 1px;
+  height: 80%;
+}
+
+aside a{
+  color: #dc3545;
+}
+
+aside a:hover{
+  color: #dc3545;
+}
+
+.navbar-brand{
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+
+li.cat-item.cat-item-9, li.cat-item.cat-item-8, li.cat-item.cat-item-7{
+  list-style-type: disc;   
+}
+
+.p-4 ul li{
+  list-style-type: disc;
+}
+
+/* Custom CSS Front */
+
+.showcase{
+    height: 600px; 
+    padding: 100px 20px;
+    text-align: center;
+    background: url('img/pizza_03.png') no-repeat center center;
+}
+
+.showcase h1{
+    font-size: 55px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+.showcase p{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#showcaseContent{
+    margin-top: 30px;
+    background-color: rgba(239, 239, 239, 0.6);
+    padding: 40px;
+}
+
+
+/* Custom CSS Chi_siamo */
+
+#immagine img{
+    width: 430px;
+    height: 300px;
+    margin-top: 125px;
+    margin-left: 100px;
+}
+
+#info{
+    margin-top: 110px;
+    text-align: justify;
+}
+
+#info h2{
+    color: #dc3545;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+  
+}
+
+#info p{
+    margin-top: 40px;
+}
+
+.chi_siamo{
+    height: 600px;
+}
+
+.btn{
+    margin-top: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.servizi{
+  text-align: center;
+  height: 500px;
+  
+}
+
+.box i{
+  font-size: 50px !important; 
+  margin-bottom: 30px;
+}
+
+.box{
+  border: black 1px solid;
+  padding: 20px;
+  margin-top: 90px;
+}
+
+.box p{
+  text-align: justify;
+}
+
+/* Comments */
+.comments{
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 70px auto;
+  width: 70%;
+}
+
+.comments h3, .comments h2{
+  background: #dc3545;
+  color: #333;
+  padding: 5px;
+  text-align: center;
+}
+
+.comment-body{
+  border: #ccc solid 1px;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+}
+
+.comment-meta a{
+  color: #333;
+}
+
+.comment-meta{
+  background: #dc3545;
+  color: #333;
+  padding: 10px;
+  overflow: auto;
+}
+
+.comment-meta img{
+  float: left;
+  margin-right: 10px;
+}
+
+.comment-reply-link{
+  background-color: #dc3545;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px #fff solid;
+}
+
+.comment-reply-link:hover{
+  color: #dc3545;
+  background-color: #fff;
+  text-decoration: none;
+  border: #dc3545 1px solid;
+}
+
+.comment-reply-title a:hover{
+  text-decoration: none;
+}
+
+.comment-form input, .comment-form textarea{
+  width: 100%;
+  padding: 4px;
+  border: #ccc solid 1px;
+  margin-bottom: 15px;
+  background: #f4f4f4;
+  resize: none;
+}
+
+.comment-form input:focus, .comment-form textarea:focus{
+  outline: none;
+}
+
+.logged-in-as a{
+  color: #333;
+}
+
+/* 404 */
+.widget ul li a{
+  color: #dc3545;
+}
+
+.site-main{
+  margin-top: 50px;
+}
+
+.site-main .error-404 .page-title{
+  background-color: #dc3545;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.site-main .error-404 .page-content{
+  margin-top: 80px;
+}
+
+#searchform{
+  margin-top: 60px;
+}
+input#s{
+  border: #dc3545 2px solid;
+  border-radius: 24px;
+  text-align: center;
+  width: 240px;
+}
+
+input#s:focus{
+  outline: none;
+}
+
+label.screen-reader-text{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input#searchsubmit{
+   margin-left: 10px;
+   background: #dc3545;
+   border: black 2px solid;
+   border-radius: 24px;
+   text-transform: uppercase;
+   color: white;
+   width: 100px;
+}
+
+div.widget.widget_recent_entries{
+  margin-top: 80px;
+}
+
+div.widget.widget_archive{
+  margin-bottom: 120px;
+}
+
+/* social network  */
+
+#social{
+	margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 24px;
+}
+
+#social a{
+	padding: 20px 20px 0 20px;
+	color: #dc3545;
+	
+}
+
+#social i:hover{
+	transform: scale(1.5);
+}
+
+#social i{
+	font-size: 30px;
+	transition: transform 1.6s;
+}
+
+/* Contatti page */
+#contattiTesto p{
+  text-align: justify;
+  margin-top: 20px;
+  color: #333;
+}
+
+#orari{
+  font-weight: bold;
+}
+
+#contattiTesto h2{
+  color: #dc3545;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#mexBenvenuto{
+  margin-bottom: 20px;
+}
+
+
+
+#contact{
+  background-color: white;
+  padding: 100px 0;
+  border-bottom: 2px solid #333;
+}
+
+iframe{
+  margin-left: 50px;
+  width: 450px;
+  height: 400px;
+}
+
+#prenota{
+  text-align: center;
+  background-color: #dc3545;
+  padding: 80px;
+}
+
+#prenota h2{
+  margin-bottom: 50px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: bold; 
+  text-align: center;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
+  border-radius: 24px;
+  border: white 2px solid;
+  padding: 6px;
+  background-color: #dc3545;
+  text-align: center;
+  color: #333;
+  margin-top: 15px;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required:focus{
+  outline: none;
+  border: #333 2px solid;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email{
+  border-radius: 24px;
+  border: white 2px solid;
+  padding: 6px;
+  background-color: #dc3545;
+  text-align: center;
+  color: #333;
+  margin-top: 15px;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email:focus{
+  border: #333 2px solid;
+  outline: none;
+}
+
+input.wpcf7-form-control.wpcf7-text{
+  border-radius: 24px;
+  border: white 2px solid;
+  padding: 6px;
+  background-color: #dc3545;
+  text-align: center;
+  color: #333;
+  margin-top: 15px;
+}
+
+input.wpcf7-form-control.wpcf7-text:focus{
+  border: #333 2px solid;
+  outline: none;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea{
+  border-radius: 24px;
+  border: white 2px solid;
+  padding: 6px;
+  background-color: #dc3545;
+  color: #333;
+  resize: none;
+  margin-top: 15px;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea:focus{
+  border: #333 2px solid;
+  outline: none;
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+  border-radius: 24px;
+  border: #333 2px solid;
+  padding: 10px;
+  background-color: #dc3545;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 120px;
+  margin-top: 15px;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover{
+  border:#333 2px solid;
+  background-color: #333;
+  color: #dc3545;
+}
+
+input.wpcf7-form-control.wpcf7-submit:focus{
+  outline: none;
+}
+
+label.form_nome{
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Jumbotron */
+img.imgJumbo.wp-post-image{
+  margin-left: 160px;
+}
+
+h1.titleJumbo:hover{
+  color: #f4f4f4;
+}
+
+@media(max-width: 968px){
+body{
+  overflow-x: hidden;
+}
+.showcase h1{
+  font-size: 30px;
+} 
+
+.chi_siamo{
+  height: 940px;
+}
+
+#immagine img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+  height: 260px;
+}
+
+.servizi{
+  height: 1200px;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  
+}
+
+#contattiTesto h2{
+  font-size: 24px;
+  text-align: center;
+}
+
+#prenota h2{
+  font-size: 24px;
+}
+
+form.wpcf7-form{
+  text-align: center;
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+ margin-right: 160px;
+}
+
+img.imgJumbo.wp-post-image{
+  margin: 0 auto;
+}
+
+}
